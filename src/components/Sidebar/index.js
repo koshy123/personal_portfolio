@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
     <div>
@@ -24,9 +24,22 @@ const Sidebar = () => (
         </NavLink>
     </nav>
     <ul>
+    <li>
+            <a 
+            target="_blank"
+            rel="noreferrer"
+            href='https://github.com/koshy123'
+            >
+                <FontAwesomeIcon icon={faGithub} color= '#4d4d4e' />
+            </a>
+        </li>
         <li>
-            <a>
-                <FontAwesomeIcon icon={faLinkedinIn} color=
+            <a 
+            target="_blank"
+            rel="noreferrer"
+            href='https://www.linkedin.com/in/jeffrey-koshy/'
+            >
+                <FontAwesomeIcon icon={faLinkedinIn} color= '#4d4d4e' />
             </a>
         </li>
     </ul>
