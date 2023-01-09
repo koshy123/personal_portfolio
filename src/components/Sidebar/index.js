@@ -5,12 +5,14 @@ import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => (
-    <div>
+    <div className='nav-bar'>
     <Link className='logo' to='/'>
         <img src={LogoS} alt='logo'/>
-        <img className='sub-logo' src={LogoSubtitle} alt="slobodan" />
+        <img className='sub-logo' src={LogoSubtitle} alt="Jeffrey" />
     </Link>
     <nav>
         <NavLink exact="true" activeclassname='active' to="/" >
