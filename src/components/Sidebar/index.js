@@ -7,12 +7,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
+import Name from '../../assets/images/jeffrey_koshy.png'
+import Jeff from '../../assets/images/jeff.png'
+import JK from '../../assets/images/jk_initials.png'
 
 const Sidebar = () => (
     <div className='nav-bar'>
     <Link className='logo' to='/'>
-        <img src={LogoS} alt='logo'/>
-        <img className='sub-logo' src={LogoSubtitle} alt="Jeffrey" />
+        <img src={JK} alt='logo'/>
+        <img className='sub-logo' src={Jeff} alt="Jeffrey" />
     </Link>
     <nav>
         <NavLink exact="true" activeclassname='active' to="/" >
