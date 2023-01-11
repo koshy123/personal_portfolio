@@ -1,7 +1,7 @@
 import './index.scss'
 
 const About = () => {
-    
+     
     return(
         <div className='contrainer about-page'>
             <div className='text-zone'>
