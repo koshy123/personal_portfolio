@@ -9,7 +9,7 @@ const Contact = () => {
         e.preventDefault()
     
         emailjs
-          .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+          .sendForm('service_rq8v0vh', 'template_yzcxokg', form.current, 'MDt0mCMS8mHlyD0fl')
           .then(
             () => {
               alert('Message successfully sent!')
@@ -45,6 +45,8 @@ const Contact = () => {
                     </li>
                 </ul>
             </form>
+
+
             </div>
         </div>
         </>

@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-export const ContactUs = () => {
+const ContactUs = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_rq8v0vh', 'template_yzcxokg', form.current, 'MDt0mCMS8mHlyD0fl')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -27,3 +27,5 @@ export const ContactUs = () => {
     </form>
   );
 };
+
+export default ContactUs
