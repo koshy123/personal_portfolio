@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818 ;
-    width: 60px;
+    width: 75px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -90,6 +90,12 @@
             }
         }
 
+        a.projects-link {
+            &:after {
+                content: 'PROJECTS';
+            }
+        }
+
         a.active {
             svg {
                 color:#ffd700;
@@ -110,10 +116,11 @@
 
         li {
             a {
-                padding: 7px 0;
+                padding: 10px 0;
                 display: block;
-                font-size: 15px;
+                font-size: 30px;
                 line-height: 16px;
+                margin-bottom: 10px;
 
                 &:hover svg {
                     color: #ffd700;
