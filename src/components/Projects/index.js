@@ -7,8 +7,7 @@ import dev_hub from '../../assets/images/dev_hub.png'
 const Projects = () => {
     return(
     <div className="github" >  
-        <hi >
-            Enjoy these projects below
+        <hi > Enjoy these projects below </hi>
             
             <div  >
                 <h1 className='projects' >Dev Hub</h1>
@@ -29,7 +28,7 @@ const Projects = () => {
 
             </div>
 
-        </hi>
+       
     </div>
     )
 }
