@@ -1,9 +1,35 @@
-.self{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -300px;
-}
+// .self{
+//     display: flex;
+//     justify-content: flex-end;
+//     margin-top: -100px;
+//     margin-left: auto
+// }
 
-.about{
-    font-size: large;
+// .about{
+//     font-size: large;
+// }
+// .skills{
+//     display: flex;
+//     justify-content: row;
+// }
+
+
+// .title{
+//     margin-top: 100px;
+// }
+.about-layout{
+    border-color: black;
+    border-style: solid;
+    margin: 10%;
+    .about{
+        font-family: 20px;
+        color: #fff;
+        font-family: 'sans-serif';
+    }
+    .title{
+        font-size: 53px;
+            font-family: 'Coolvetica';
+            color: #ffd700;
+    }
+
 }
