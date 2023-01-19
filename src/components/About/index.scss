@@ -18,9 +18,9 @@
 //     margin-top: 100px;
 // }
 .about-layout{
-    border-color: black;
-    border-style: solid;
-    margin: 10%;
+
+    margin-top: -10;
+    margin-left: 15%;
     .about{
         font-family: 20px;
         color: #fff;
@@ -32,4 +32,19 @@
             color: #ffd700;
     }
 
+}
+
+.skill_layout{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skill_image{
+    width: 25%;
+}
+
+.skills{
+    font-size: 20px;
+    color: #ffd700;
 }
