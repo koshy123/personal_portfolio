@@ -1,33 +1,37 @@
-
-.about-layout{
-
-    margin-top: -10;
+.about-layout {
+    display: flex;
+    margin-top: 0;
     margin-left: 15%;
-    .about{
+
+    .about {
         font-family: 20px;
         color: #fff;
         font-family: 'sans-serif';
     }
-    .title{
+
+    .title {
         font-size: 53px;
-            font-family: 'Coolvetica';
-            color: #ffd700;
+        font-family: 'Coolvetica';
+        color: #ffd700;
 
     }
 
 }
 
-.skill_layout{
+.skill_layout {
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.skill_image{
-    width: 25%;
+.skill_image {
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
 }
 
-.skills{
+.skills {
     font-size: 20px;
     color: #ffd700;
 }
