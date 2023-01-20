@@ -1,5 +1,5 @@
-.contact-form {
-    width: 100%;
+.contact-form, .title {
+    width: 60%;
     margin-top: 20px;
     margin-left: 20%;
 
@@ -47,7 +47,7 @@
     }
   
     textarea {
-      width: 100%;
+      width: 80%;
       border: 0;
       background: #115173;
       height: 50px;
@@ -63,7 +63,7 @@
       font-size: 11px;
       letter-spacing: 3px;
       text-decoration: none;
-      padding: 8px 10px;
+      padding: 16px 20px;
       border: 1px solid #ffd700;
       float: left;
       border-radius: 4px;
@@ -71,7 +71,8 @@
       text-transform: uppercase;
       float: right;
       text-align: center;
-      margin-right: 10px;
+      margin-right: 50%;
+      
     }
   }
   
@@ -121,7 +122,7 @@
     .map-wrap {
       float: none;
       margin: 0;
-      width: 100%;
+      width: 75%;
       height: 400px;
     }
     
@@ -131,6 +132,3 @@
   }
 
 
-  h1{
-    margin-left: 20%;
-  }
