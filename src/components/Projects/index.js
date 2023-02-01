@@ -5,31 +5,41 @@ import sports_discord from '../../assets/images/sports_discord.png'
 import dev_hub from '../../assets/images/dev_hub.png'
 
 const Projects = () => {
-    return(
-    <div className="github" >  
-        <hi > Enjoy these projects below </hi>
-            
-            <div  >
-                <h1 className='projects' >Dev Hub</h1>
-                <a target="_blank" href="https://the-dev-hub.vercel.app/"><img className="web_shots" src={dev_hub}></img></a>
-            </div>
-            <div>
-                <h1 className='projects' >Sports Discords</h1>
-                <a target="_blank" href="https://project3-front-end.vercel.app/"  ><img className="web_shots" src={sports_discord}></img></a>
+    return (
+        <div className="github" >
+            <h1 className="projects_title"> Projects </h1>
+            <div className='projects_list'>
+                <div className='name_pic'  >
+                    <h1 className='projects' >Dev Hub</h1>
+                    <a target="_blank" href="https://the-dev-hub.vercel.app/">
+                        <img className="web_shots" src={dev_hub}></img>
+                    </a>
+                        
+                    
+                </div>
+                <div className='name_pic'>
+                    <h1 className='projects' >Sports Discords</h1>
+                    <a target="_blank" href="https://project3-front-end.vercel.app/"  >
+                        <img className="web_shots" src={sports_discord}></img>
+                    </a>
+
+                </div>
+                <div className='name_pic'>
+                    <h1 className='projects' >Burger App</h1>
+                    <a target="_blank" href="https://mern-front-qlvy1gwus-koshy123.vercel.app/burgerView">
+                        <img className="web_shots" src={burger_express}></img>
+                    </a>
+                </div>
+                <div className='name_pic'>
+                    <h1 className='projects' >Game of Thrones</h1>
+                    <a target="_blank" href="https://game-of-thrones-medp.vercel.app/components/Quote">
+                        <img className="web_shots" src={game_thrones}></img>
+                    </a>
+
+                </div>
 
             </div>
-            <div>
-                <h1 className='projects' >Burger App</h1>
-                <a target="_blank" href="https://mern-front-qlvy1gwus-koshy123.vercel.app/burgerView"><img className="web_shots" src={burger_express}></img></a>
-            </div>
-            <div>
-                <h1 className='projects' >Game of Thrones</h1>
-               <a target="_blank" href="https://game-of-thrones-medp.vercel.app/components/Quote"> <img className="web_shots" src={game_thrones}></img> </a>
-
-            </div>
-
-       
-    </div>
+        </div>
     )
 }
 
