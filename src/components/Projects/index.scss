@@ -9,11 +9,10 @@
     color: #ffd700;
     margin-top: 5%;
     padding-top: 3%;
-    margin-left: 10%;
 }
 .projects {
     font-size: medium;
-    color: #ffd700;
+    color: white;
     margin-left: 5%;
     display: inline;
     padding-right: 5px;
@@ -26,9 +25,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
 }
 .web_shots {
     width: 250px;
+    height: 200px;
 
 
 }
@@ -37,8 +38,10 @@
     display: flex;
     flex-direction: column;
     margin-right: 5%;
+    margin-bottom: 5%;
     flex-basis: 25%;
     padding: 1rem;
+    border: black solid;
 }
 
 .carousel-item{
@@ -48,3 +51,29 @@
     position: absolute;
 }
 
+.describe{
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: larger;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.button {
+    color: #ffd700;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #ffd700;
+    float: left;
+    border-radius: 4px;
+    background: 0 0;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;   
+    width: 20%; 
+  }

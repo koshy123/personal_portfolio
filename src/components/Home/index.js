@@ -42,7 +42,6 @@ const Home = () => {
                 </h1>
             <h2>Frontend Developer / JavaScript Expert / Backend Developer </h2>
             </div>
-
         </div>
     );
 }
