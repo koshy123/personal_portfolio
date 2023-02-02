@@ -17,13 +17,13 @@ const About = () => {
 
                 </p>
                 <p className="about">
-                    With software development I can help companies or individuals run more efficiently.
+                    With software development I can help companies or individuals improve their daily lives.
                 </p>
                 <p className="about">
-                    My family, friends and faith are close to my heart. 
+                    My family, friends motivate me to work harder and inspire me.
                 </p>
                 <p className="about">
-                Some other topics that interest me are Sports, History and Economics. 
+                Some topics that interest me are Sports, History and Anthropology.  
                 </p>
 
                 <div >

@@ -6,16 +6,18 @@ import dev_hub from '../../assets/images/dev_hub.png'
 
 const Projects = () => {
     return (
+        
+        
+        
+        
         <div className="github" >
             <h1 className="projects_title"> Projects </h1>
             <div className='projects_list'>
                 <div className='name_pic'  >
-                    <h1 className='projects' >Dev Hub</h1>
+                    <h1 className='projects' >Dev-Hub</h1>
                     <a target="_blank" href="https://the-dev-hub.vercel.app/">
                         <img className="web_shots" src={dev_hub}></img>
                     </a>
-                        
-                    
                 </div>
                 <div className='name_pic'>
                     <h1 className='projects' >Sports Discords</h1>
