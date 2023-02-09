@@ -17,7 +17,7 @@ const Projects = () => {
                     <img className="web_shots" src={dev_hub}></img>
                     <p className='describe'>This group project utalized React.js</p>
                     <div className='buttons'>
-                    <Button className='button' target="_blank" href="https://github.com/koshy123/GameOfThronesHQ" >Github Repo</Button>
+                    <Button className='button' target="_blank" href="https://github.com/nghiavo24/the-dev-hub-fe" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://the-dev-hub.vercel.app/" >Live Link</Button>
                         </div>
                 </div>
@@ -35,7 +35,7 @@ const Projects = () => {
                     <img className="web_shots" src={burger_express}></img>
                     <p className='describe'>This group project utalized React.js</p>
                     <div className='buttons'>
-                    <Button className='button' target="_blank" href="https://the-dev-hub.vercel.app/" >Github Repo</Button>
+                    <Button className='button' target="_blank" href="https://github.com/koshy123/Burger-Express" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://mern-front-qlvy1gwus-koshy123.vercel.app/burgerView" >Live Link</Button>
                         </div>
                 </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <img className="web_shots" src={game_thrones}></img>
                     <p className='describe'>This group project utalized React.js</p>
                     <div className='buttons'>
-                    <Button className='button' target="_blank" href="https://the-dev-hub.vercel.app/" >Github Repo</Button>
+                    <Button className='button' target="_blank" href="https://github.com/koshy123/GameOfThronesHQ" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://game-of-thrones-medp.vercel.app/components/Quote" >Live Link</Button>
                     </div>
                 </div>
