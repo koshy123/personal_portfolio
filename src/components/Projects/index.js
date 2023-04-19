@@ -12,6 +12,15 @@ const Projects = () => {
         <div className="github" >
             <h1 className="projects_title"> Projects </h1>
             <div className='projects_list'>
+            <div className='name_pic'  >
+                    <h1 className='projects' >IPC Philly</h1>
+                    <img className="web_shots" src={dev_hub}></img>
+                    <p className='describe'>This project was built for a local church. So they can better communicate to their members and prospective members.</p>
+                    <div className='buttons'>
+                    <Button className='button' target="_blank" href="https://github.com/nghiavo24/the-dev-hub-fe" >Github Repo</Button>
+                    <Button className='button' target="_blank" href="https://the-dev-hub.vercel.app/" >Live Link</Button>
+                        </div>
+                </div>
                 <div className='name_pic'  >
                     <h1 className='projects' >Dev-Hub</h1>
                     <img className="web_shots" src={dev_hub}></img>
