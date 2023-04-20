@@ -33,7 +33,7 @@ const Projects = () => {
                 <div className='name_pic'>
                     <h1 className='projects' >Sports Discords</h1>
                     <img className="web_shots" src={sports_discord}></img>
-                    <p className='describe'>This group project utalized React.js</p>
+                    <p className='describe'>An open source chat board, for sports fans.</p>
                     <div className='buttons'>
                     <Button className='button' target="_blank" href="https://github.com/koshy123/Sports-Discord" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://project3-front-end.vercel.app/" >Live Link</Button>
@@ -42,7 +42,7 @@ const Projects = () => {
                 <div className='name_pic'>
                     <h1 className='projects' >Burger App</h1>
                     <img className="web_shots" src={burger_express}></img>
-                    <p className='describe'>This group project utalized React.js</p>
+                    <p className='describe'>Simple food ordering app, inspired by the use of applcation like Grubhub and Ubereats</p>
                     <div className='buttons'>
                     <Button className='button' target="_blank" href="https://github.com/koshy123/Burger-Express" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://mern-front-qlvy1gwus-koshy123.vercel.app/burgerView" >Live Link</Button>
