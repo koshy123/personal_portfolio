@@ -3,6 +3,8 @@ import burger_express from '../../assets/images/burger_express.png'
 import game_thrones from '../../assets/images/game_of_thrones.png'
 import sports_discord from '../../assets/images/sports_discord.png'
 import dev_hub from '../../assets/images/dev_hub.png'
+import ipcPhilly from '../../assets/images/ipcPhilly.png'
+
 import { Button } from 'react-bootstrap';
 
 const Projects = () => {
@@ -14,11 +16,11 @@ const Projects = () => {
             <div className='projects_list'>
             <div className='name_pic'  >
                     <h1 className='projects' >IPC Philly</h1>
-                    <img className="web_shots" src={dev_hub}></img>
+                    <img className="web_shots" src={ipcPhilly}></img>
                     <p className='describe'>This project was built for a local church. So they can better communicate to their members and prospective members.</p>
                     <div className='buttons'>
-                    <Button className='button' target="_blank" href="https://github.com/nghiavo24/the-dev-hub-fe" >Github Repo</Button>
-                    <Button className='button' target="_blank" href="https://the-dev-hub.vercel.app/" >Live Link</Button>
+                    <Button className='button' target="_blank" href="https://github.com/koshy123/IPC-Philly" >Github Repo</Button>
+                    <Button className='button' target="_blank" href="https://ipcphillychurch.org/" >Live Link</Button>
                         </div>
                 </div>
                 <div className='name_pic'  >
@@ -51,7 +53,7 @@ const Projects = () => {
                 <div className='name_pic'>
                     <h1 className='projects' >Game of Thrones</h1>
                     <img className="web_shots" src={game_thrones}></img>
-                    <p className='describe'>This group project utalized React.js</p>
+                    <p className='describe'>This project was built from my love of the hit tv show.</p>
                     <div className='buttons'>
                     <Button className='button' target="_blank" href="https://github.com/koshy123/GameOfThronesHQ" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://game-of-thrones-medp.vercel.app/components/Quote" >Live Link</Button>
