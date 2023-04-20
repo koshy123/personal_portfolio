@@ -13,7 +13,12 @@
 .projects {
     font-size: medium;
     color: white;
-    width: 150px;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Coolvetica';
+    letter-spacing: 2px;
+
+
 }
 .name_pic h1{
     text-align: center;
@@ -34,10 +39,7 @@
     display: flex;
     flex-direction: column;
     margin: 5%;
-    flex-basis: 25%;
-    padding: 1rem;
     border-radius: 4px;
-    width: 200px;
 
 }
 
@@ -52,13 +54,13 @@
     color: white;
     font-family: 'Helvetica Neue';
     font-size: larger;
-    text-align: center;
+    width: 60%;
 }
 
 .buttons{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .button {
     color: #ffd700;
@@ -74,4 +76,5 @@
     float: right;
     text-align: center;   
     width: 20%; 
+    margin-right: 40px;
   }
