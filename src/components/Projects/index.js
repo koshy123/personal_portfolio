@@ -24,7 +24,7 @@ const Projects = () => {
                 <div className='name_pic'  >
                     <h1 className='projects' >Dev-Hub</h1>
                     <img className="web_shots" src={dev_hub}></img>
-                    <p className='describe'>This group project utalized React.js</p>
+                    <p className='describe'>TAn application to help prospective job seekers, record their search</p>
                     <div className='buttons'>
                     <Button className='button' target="_blank" href="https://github.com/nghiavo24/the-dev-hub-fe" >Github Repo</Button>
                     <Button className='button' target="_blank" href="https://the-dev-hub.vercel.app/" >Live Link</Button>
